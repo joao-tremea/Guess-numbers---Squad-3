@@ -46,7 +46,7 @@ def VerificaNum(nivel):                                                         
       else:                                                                       # Caso o número não esteja entre os números jogáveis
         print("Digite um número de 100 até 999")                                  # Informa quais os núemeros que podem ser utilizados para jogar
     if(nivel == 4):                                                               # Verifica se o modo de jogo escolhido foi o
-      if(resp >= 100 and resp <= 9999):                                           # Verifica se a resposta do jogador está dentro do jogável para o modo de jogo escolhido
+      if(resp >= 1000 and resp <= 9999):                                           # Verifica se a resposta do jogador está dentro do jogável para o modo de jogo escolhido
         respo = str(resp)                                                         # Transforma a resposta do jogador em String
         return respo                                                              # Retorna a resposta do jogador
       else:                                                                       # Caso o número não esteja entre os números jogáveis
